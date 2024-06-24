@@ -42,7 +42,7 @@ html, body {
     }
 
     &__title {
-        @include h1;
+        @include h2;
     }
 
     &__list {
@@ -57,7 +57,7 @@ html, body {
         color: #8ab4f7;
 
         &:hover {
-            color: $pureblack;
+            color: #458bfc;
         }
     }
 }

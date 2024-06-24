@@ -59,7 +59,7 @@ html, body {
   color: #8ab4f7;
 }
 .nav__link:hover {
-  color: black;
+  color: #458bfc;
 }
 
 .footer {
@@ -82,6 +82,11 @@ html, body {
     max-width: 48rem;
     margin: 0 auto;
   }
+}
+.main__title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #E8E8E8;
 }
 .main__emoji {
   width: 2.5rem;
@@ -116,6 +121,9 @@ html, body {
   font-weight: 300;
   color: #E8E8E8;
   color: #8ab4f7;
+}
+.main__link:hover {
+  color: #458bfc;
 }
 .main__container {
   display: flex;
