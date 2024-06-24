@@ -44,6 +44,7 @@
     &__link {
         @include p;
         color: #8ab4f7;
+        text-decoration: none;
 
         &:hover {
             color: #458bfc;
@@ -61,6 +62,12 @@
     &__date {
         @include p;
         color: #b2b2b2;
+    }
+
+    &__list {
+        @include p;
+        @include flex ($direction: column, $gap: 1rem);
+        padding: 1rem;
     }
 }
 

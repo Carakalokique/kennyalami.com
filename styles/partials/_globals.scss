@@ -54,9 +54,14 @@ html, body {
 
     &__link {
         @include p;
+        text-decoration: none;
         color: #8ab4f7;
 
         &:hover {
+            color: #458bfc;
+        }
+
+        &--active {
             color: #458bfc;
         }
     }

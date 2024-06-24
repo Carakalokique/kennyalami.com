@@ -56,9 +56,13 @@ html, body {
   font-size: 1.25rem;
   font-weight: 300;
   color: #E8E8E8;
+  text-decoration: none;
   color: #8ab4f7;
 }
 .nav__link:hover {
+  color: #458bfc;
+}
+.nav__link--active {
   color: #458bfc;
 }
 
@@ -121,6 +125,7 @@ html, body {
   font-weight: 300;
   color: #E8E8E8;
   color: #8ab4f7;
+  text-decoration: none;
 }
 .main__link:hover {
   color: #458bfc;
@@ -142,4 +147,14 @@ html, body {
   font-weight: 300;
   color: #E8E8E8;
   color: #b2b2b2;
+}
+.main__list {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #E8E8E8;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
 }/*# sourceMappingURL=index.css.map */
