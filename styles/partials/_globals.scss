@@ -14,6 +14,7 @@
 html, body {
     height: 100%;
     font-family: Arial, sans-serif;
+    background-color: #1F1F1F;
 }
 
 // Navigation
@@ -22,7 +23,7 @@ html, body {
     margin: 2.8125rem 1.1875rem 0 1.1875rem;
     padding-bottom: 1.875rem;
     @include flex ($gap: 1rem);
-    border-bottom: 1px solid $gray;
+    border-bottom: 1px solid #303335;
 
     @include tablet {
         max-width: 48rem;
@@ -53,7 +54,7 @@ html, body {
 
     &__link {
         @include p;
-        color: $blue;
+        color: #8ab4f7;
 
         &:hover {
             color: $pureblack;

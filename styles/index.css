@@ -7,6 +7,7 @@
 html, body {
   height: 100%;
   font-family: Arial, sans-serif;
+  background-color: #1F1F1F;
 }
 
 .nav {
@@ -16,7 +17,7 @@ html, body {
   flex-wrap: nowrap;
   flex-direction: row;
   gap: 1rem;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #303335;
 }
 @media (min-width: 768px) {
   .nav {
@@ -39,7 +40,7 @@ html, body {
 .nav__title {
   font-size: 2rem;
   font-weight: 900;
-  color: #2f2f2f;
+  color: #E8E8E8;
 }
 .nav__list {
   list-style-type: none;
@@ -54,8 +55,8 @@ html, body {
 .nav__link {
   font-size: 1.25rem;
   font-weight: 300;
-  color: #2f2f2f;
-  color: blue;
+  color: #E8E8E8;
+  color: #8ab4f7;
 }
 .nav__link:hover {
   color: black;
@@ -85,12 +86,12 @@ html, body {
   flex-direction: column;
   gap: 2.5rem;
   padding-bottom: 2.5rem;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #303335;
 }
 .main__paragraph {
   font-size: 1.25rem;
   font-weight: 300;
-  color: #2f2f2f;
+  color: #E8E8E8;
 }
 .main__box {
   display: flex;
@@ -99,16 +100,16 @@ html, body {
   gap: 1rem;
   justify-content: center;
   padding: 1rem;
-  background-color: #efefef;
+  background-color: #303134;
   border-radius: 0.3125rem;
   height: 10rem;
 }
 .main__link {
   font-size: 1.25rem;
   font-weight: 300;
-  color: #2f2f2f;
+  color: #E8E8E8;
   font-weight: 600;
-  color: blue;
+  color: #8ab4f7;
 }
 .main__container {
   display: flex;
@@ -125,6 +126,6 @@ html, body {
 .main__date {
   font-size: 1.25rem;
   font-weight: 300;
-  color: #2f2f2f;
-  color: #696969;
+  color: #E8E8E8;
+  color: #b2b2b2;
 }/*# sourceMappingURL=index.css.map */

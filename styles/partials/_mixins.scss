@@ -10,13 +10,13 @@
 @mixin h1 {
     font-size: 2rem;
     font-weight: 900;
-    color: $black;
+    color: #E8E8E8;
 }
 
 @mixin p {
     font-size: 1.25rem;
     font-weight: 300;
-    color: $black;
+    color: #E8E8E8;
 }
 
 // Responsiveness Mixin
