@@ -21,7 +21,7 @@ html, body {
 @media (min-width: 768px) {
   .nav {
     max-width: 48rem;
-    margin: 2.8125rem auto;
+    margin: 2.8125rem auto 0 auto;
   }
 }
 .nav__profile {
