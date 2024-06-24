@@ -61,3 +61,7 @@ html, body {
         }
     }
 }
+
+.footer {
+    @include flex ($gap: 0.5rem);
+}
