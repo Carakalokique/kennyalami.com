@@ -24,9 +24,10 @@ html, body {
     @include flex ($gap: 1rem);
     border-bottom: 1px solid $gray;
 
-    // @include tablet {
-    //     max-width: 48rem;
-    // };
+    @include tablet {
+        max-width: 48rem;
+        margin: 2.8125rem auto;
+    };
 
     &__profile {
         width: 4.5625rem;

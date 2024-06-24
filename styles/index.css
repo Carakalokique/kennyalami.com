@@ -18,6 +18,12 @@ html, body {
   gap: 1rem;
   border-bottom: 1px solid #D9D9D9;
 }
+@media (min-width: 768px) {
+  .nav {
+    max-width: 48rem;
+    margin: 2.8125rem auto;
+  }
+}
 .nav__profile {
   width: 4.5625rem;
   height: 4.5625rem;
@@ -46,7 +52,7 @@ html, body {
   row-gap: 0.5rem;
 }
 .nav__link {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 300;
   color: #2f2f2f;
   color: blue;
@@ -63,6 +69,12 @@ html, body {
   flex-direction: column;
   gap: 2.5rem;
 }
+@media (min-width: 768px) {
+  .main {
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+}
 .main__emoji {
   width: 2.5rem;
   height: 2.5rem;
@@ -76,7 +88,7 @@ html, body {
   border-bottom: 1px solid #D9D9D9;
 }
 .main__paragraph {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 300;
   color: #2f2f2f;
 }
@@ -92,7 +104,7 @@ html, body {
   height: 10rem;
 }
 .main__link {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 300;
   color: #2f2f2f;
   font-weight: 600;
@@ -111,7 +123,7 @@ html, body {
   gap: 1rem;
 }
 .main__date {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 300;
   color: #2f2f2f;
   color: #696969;

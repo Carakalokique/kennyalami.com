@@ -14,7 +14,7 @@
 }
 
 @mixin p {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 300;
     color: $black;
 }
@@ -22,7 +22,7 @@
 // Responsiveness Mixin
 
 @mixin tablet {
-    @include respond-to(768px) {
-        @content;
+    @media (min-width: 768px) {
+      @content;
     }
   }
