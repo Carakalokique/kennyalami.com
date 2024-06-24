@@ -1,0 +1,28 @@
+@use "./variables" as *;
+
+@mixin flex ($wrap: nowrap, $direction: row, $gap: 0rem) {
+    display: flex;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+    gap: $gap;
+}
+
+@mixin h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: $black;
+}
+
+@mixin p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: $black;
+}
+
+// Responsiveness Mixin
+
+@mixin tablet {
+    @include respond-to(768px) {
+        @content;
+    }
+  }
