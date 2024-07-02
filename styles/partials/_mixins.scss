@@ -1,34 +1,40 @@
 @use "./variables" as *;
 
-@mixin flex ($wrap: nowrap, $direction: row, $gap: 0rem) {
-    display: flex;
-    flex-wrap: $wrap;
-    flex-direction: $direction;
-    gap: $gap;
+@mixin flex($wrap: nowrap, $direction: row, $gap: 0rem) {
+  display: flex;
+  flex-wrap: $wrap;
+  flex-direction: $direction;
+  gap: $gap;
 }
 
 @mixin h1 {
-    font-size: 2rem;
-    font-weight: 900;
-    color: #E8E8E8;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #e8e8e8;
 }
 
 @mixin h2 {
-    font-size: 2rem;
-    font-weight: 900;
-    color: #E8E8E8;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #e8e8e8;
+}
+
+@mixin h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #e8e8e8;
 }
 
 @mixin p {
-    font-size: 1.25rem;
-    font-weight: 300;
-    color: #E8E8E8;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #e8e8e8;
 }
 
 // Responsiveness Mixin
 
 @mixin tablet {
-    @media (min-width: 768px) {
-      @content;
-    }
+  @media (min-width: 768px) {
+    @content;
   }
+}
