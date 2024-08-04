@@ -19,40 +19,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kenny Alami</title>
     <link rel="stylesheet" href="../styles/index.css" />
+    <script src="../main.js" defer></script>
   </head>
   <body>
     <!-- Navigation -->
-    <header class="nav">
-      <img
-        class="nav__profile"
-        src="../assets/Kenny.jpeg"
-        alt="Profile Picture"
-      />
-      <div class="nav__container">
-        <h1 class="nav__title">Kenny Alami</h1>
-        <!-- Navigation Links -->
-        <ul class="nav__list">
-          <li>
-            <a class="nav__link" href="../index.html">Home</a>
-          </li>
-          <li>
-            <a class="nav__link nav__link--active" href="./about.html">About</a>
-          </li>
-          <li>
-            <a class="nav__link" href="./now.html">Now</a>
-          </li>
-          <!-- <li>
-            <a class="nav__link" href="./domains.html">Domains</a>
-          </li> -->
-          <!-- <li>
-            <a class="nav__link" href="./blog.html">Blog</a>
-          </li> -->
-          <li>
-            <a class="nav__link" href="./dollaraday.html">Dollar a Day</a>
-          </li>
-        </ul>
-      </div>
-    </header>
+    <div data-include="../pages/header.html"></div>
     <!-- Main -->
     <main class="main">
       <h1 class="main__title">About</h1>
@@ -71,21 +42,7 @@
         </ul>
       </section>
       <!-- Footer -->
-      <footer class="footer">
-        <!-- <a class="main__link" href="#">Email</a>
-            <p class="main__paragraph">|</p> -->
-        <a class="main__link" href="https://x.com/KennyAlami">Twitter</a>
-        <p class="main__paragraph">|</p>
-        <a class="main__link" href="https://www.linkedin.com/in/kennyalami/"
-          >LinkedIn</a
-        >
-        <p class="main__paragraph">|</p>
-        <a class="main__link" href="https://kennyalami.substack.com/"
-          >Newsletter</a
-        >
-        <p class="main__paragraph">|</p>
-        <a class="main__link" href="https://k2a2.gumroad.com/">Store</a>
-      </footer>
+      <div data-include="../pages/footer.html"></div>
     </main>
   </body>
 </html>
