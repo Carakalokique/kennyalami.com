@@ -1,4 +1,4 @@
-@use "./variables" as *;
+@use "variables" as *;
 
 @mixin flex($wrap: nowrap, $direction: row, $gap: 0rem) {
   display: flex;
@@ -8,19 +8,19 @@
 }
 
 @mixin h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 900;
   color: #e8e8e8;
 }
 
 @mixin h2 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 900;
   color: #e8e8e8;
 }
 
 @mixin h3 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 900;
   color: #e8e8e8;
 }
@@ -30,8 +30,6 @@
   font-weight: 300;
   color: #e8e8e8;
 }
-
-// Responsiveness Mixin
 
 @mixin tablet {
   @media (min-width: 768px) {

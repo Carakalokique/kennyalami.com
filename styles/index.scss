@@ -1,12 +1,13 @@
-@use "./partials/globals" as *;
+@forward "./partials/mixins";
 @use "./partials/mixins" as *;
+@use "./partials/globals" as *;
 @use "./partials/typography" as *;
 @use "./partials/variables" as *;
 
 .main {
     margin: 0 1.1875rem;
     padding: 2.5rem 0;
-    @include flex ($direction: column, $gap: 2.5rem);
+    @include flex($direction: column, $gap: 1rem);
 
     @include tablet {
         max-width: 48rem;
@@ -15,6 +16,13 @@
 
     &__title {
         @include h1;
+        margin-bottom: 1rem;
+    }
+
+    &__subtitle {
+        @include h2;
+        margin-top: 0.75rem;
+        margin-bottom: 0;
     }
 
     &__emoji {
@@ -23,7 +31,7 @@
     }
 
     &__section {
-        @include flex ($direction: column, $gap: 2.5rem);
+        @include flex($direction: column, $gap: 0.5rem);
         padding-bottom: 2.5rem;
         border-bottom: 1px solid #303335;
     }
@@ -33,7 +41,7 @@
     }
 
     &__box {
-        @include flex ($direction: column, $gap: 1rem);
+        @include flex($direction: column, $gap: 1rem);
         justify-content: center;
         padding: 1rem;
         background-color: #303134;
@@ -52,11 +60,11 @@
     }
 
     &__container {
-        @include flex ($direction: column, $gap: 1rem);
+        @include flex($direction: column, $gap: 1rem);
     }
 
     &__subcontainer {
-        @include flex ($direction: row, $gap: 1rem);
+        @include flex($direction: row, $gap: 1rem);
     }
 
     &__date {
@@ -66,7 +74,7 @@
 
     &__list {
         @include p;
-        @include flex ($direction: column, $gap: 1rem);
+        @include flex($direction: column, $gap: 1rem);
         padding: 1rem;
     }
 }
